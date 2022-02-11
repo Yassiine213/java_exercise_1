@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
 public interface Command {
-    public String name();
-    public boolean run(Scanner s);
+    public abstract String name();
+    public abstract boolean run(Scanner scanner);
 }
